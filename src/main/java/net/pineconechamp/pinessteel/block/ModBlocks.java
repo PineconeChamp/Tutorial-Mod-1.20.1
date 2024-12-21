@@ -20,10 +20,13 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, PinesSteel.MOD_ID);
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> HEAVY_STEEL_BLOCK = registerBlock("heavy_steel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).sound(SoundType.NETHERITE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)
+                    .sound(SoundType.NETHERITE_BLOCK)
+                    .requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
