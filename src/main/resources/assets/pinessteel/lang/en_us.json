@@ -1,0 +1,9 @@
+{
+  "item.pinessteel.steel_ingot": "Steel Ingot",
+  "item.pinessteel.steel_slag": "Slag",
+
+  "block.pinessteel.steel_block": "Block of Steel",
+  "block.pinessteel.heavy_steel_block": "Block of Heavy Steel",
+
+  "creativetab.pines_steel_tab": "Pines Steel"
+}

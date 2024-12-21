@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pinessteel:steel_block"
+    }
+  },
+  "result": {
+    "item": "pinessteel:heavy_steel_block"
+  }
+}

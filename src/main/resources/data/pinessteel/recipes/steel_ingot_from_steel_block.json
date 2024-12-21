@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pinessteel:steel_block"
+    }
+  ],
+  "result": {
+    "item": "pinessteel:steel_ingot",
+    "count": 9
+  }
+}
