@@ -20,8 +20,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STEEL.get());
                         output.accept(ModItems.STEELSLAG.get());
+                        output.accept(ModItems.RAW_CHEESE.get());
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.HEAVY_STEEL_BLOCK.get());
+                        output.accept(ModBlocks.CHEESE_ORE.get());
                     })
                     .build());
 

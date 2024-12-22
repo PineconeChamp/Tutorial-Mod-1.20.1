@@ -1,9 +1,11 @@
 {
   "item.pinessteel.steel_ingot": "Steel Ingot",
   "item.pinessteel.steel_slag": "Slag",
+  "item.pinessteel.raw_cheese": "Cheese",
 
   "block.pinessteel.steel_block": "Block of Steel",
   "block.pinessteel.heavy_steel_block": "Block of Heavy Steel",
+  "block.pinessteel.cheese_ore": "Cheese Ore",
 
   "creativetab.pines_steel_tab": "Pines Steel"
 }

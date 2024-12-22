@@ -13,8 +13,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> STEEL = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
-    public static  final  RegistryObject<Item> STEELSLAG = ITEMS.register("steel_slag",
+    public static final RegistryObject<Item> STEELSLAG = ITEMS.register("steel_slag",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_CHEESE = ITEMS.register("raw_cheese",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
