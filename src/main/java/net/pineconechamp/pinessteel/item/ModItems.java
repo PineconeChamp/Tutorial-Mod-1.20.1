@@ -19,6 +19,22 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_CHEESE = ITEMS.register("raw_cheese",
             () -> new Item(new Item.Properties()));
 
+    public static final  RegistryObject<Item> COBALT = ITEMS.register("cobalt_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final  RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
+            () -> new Item(new Item.Properties()));
+
+    public static final  RegistryObject<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
+            () -> new Item(new Item.Properties()));
+
+    public static final  RegistryObject<Item> ALUMINIUM = ITEMS.register("aluminium_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final  RegistryObject<Item> RAW_LITHIUM = ITEMS.register("raw_lithium",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

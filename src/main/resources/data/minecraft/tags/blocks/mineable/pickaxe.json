@@ -1,6 +1,12 @@
 {
   "values": [
     "pinessteel:steel_block",
-    "pinessteel:heavy_steel_block"
+    "pinessteel:heavy_steel_block",
+    "pinessteel:aluminium_ore",
+    "pinessteel:deepslate_aluminium_ore",
+    "pinessteel:cobalt_ore",
+    "pinessteel:deepslate_cobalt_ore",
+    "pinessteel:cobalt_block",
+    "pinessteel:lithium_ore"
   ]
 }

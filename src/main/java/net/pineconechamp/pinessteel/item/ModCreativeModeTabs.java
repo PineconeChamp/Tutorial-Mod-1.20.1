@@ -20,10 +20,21 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STEEL.get());
                         output.accept(ModItems.STEELSLAG.get());
+                        output.accept(ModItems.COBALT.get());
+                        output.accept(ModItems.RAW_COBALT.get());
+                        output.accept(ModItems.RAW_ALUMINIUM.get());
+                        output.accept(ModItems.ALUMINIUM.get());
                         output.accept(ModItems.RAW_CHEESE.get());
+                        output.accept(ModItems.RAW_LITHIUM.get());
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.HEAVY_STEEL_BLOCK.get());
                         output.accept(ModBlocks.CHEESE_ORE.get());
+                        output.accept(ModBlocks.ALUMINIUM_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_ALUMINIUM_ORE.get());
+                        output.accept(ModBlocks.COBALT_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_COBALT_ORE.get());
+                        output.accept(ModBlocks.COBALT_BLOCK.get());
+                        output.accept(ModBlocks.LITHIUM_ORE.get());
                     })
                     .build());
 

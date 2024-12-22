@@ -2,10 +2,21 @@
   "item.pinessteel.steel_ingot": "Steel Ingot",
   "item.pinessteel.steel_slag": "Slag",
   "item.pinessteel.raw_cheese": "Cheese",
+  "item.pinessteel.cobalt_ingot": "Cobalt Ingot",
+  "item.pinessteel.raw_cobalt": "Raw Cobalt",
+  "item.pinessteel.raw_aluminium": "Raw Aluminium",
+  "item.pinessteel.raw_lithium": "Raw Lithium",
 
   "block.pinessteel.steel_block": "Block of Steel",
   "block.pinessteel.heavy_steel_block": "Block of Heavy Steel",
   "block.pinessteel.cheese_ore": "Cheese Ore",
+  "block.pinessteel.cobalt_ore": "Cobalt Ore",
+  "block.pinessteel.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.pinessteel.cobalt_block": "Block of Cobalt",
+  "block.pinessteel.aluminium_ore": "Bauxite Ore",
+  "block.pinessteel.deepslate_aluminium_ore": "Deepslate Bauxite Ore",
+  "block.pinessteel.lithium_ore": "Lithium Ore",
+
 
   "creativetab.pines_steel_tab": "Pines Steel"
 }

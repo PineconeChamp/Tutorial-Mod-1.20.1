@@ -27,9 +27,35 @@ public class ModBlocks {
                     .sound(SoundType.NETHERITE_BLOCK)
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> COBALT_BLOCK = registerBlock("cobalt_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> CHEESE_ORE = registerBlock("cheese_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+
+    public static final RegistryObject<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> COBALT_ORE = registerBlock("cobalt_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> LITHIUM_ORE = registerBlock("lithium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
