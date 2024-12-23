@@ -26,6 +26,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ALUMINIUM.get());
                         output.accept(ModItems.RAW_CHEESE.get());
                         output.accept(ModItems.RAW_LITHIUM.get());
+                        output.accept(ModItems.RAW_SULPHUR.get());
+
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.HEAVY_STEEL_BLOCK.get());
                         output.accept(ModBlocks.CHEESE_ORE.get());
@@ -35,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_COBALT_ORE.get());
                         output.accept(ModBlocks.COBALT_BLOCK.get());
                         output.accept(ModBlocks.LITHIUM_ORE.get());
+                        output.accept(ModBlocks.SULPHUR_ORE.get());
                     })
                     .build());
 
