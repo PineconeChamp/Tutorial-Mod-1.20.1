@@ -5,8 +5,10 @@
   "item.pinessteel.cobalt_ingot": "Cobalt Ingot",
   "item.pinessteel.raw_cobalt": "Raw Cobalt",
   "item.pinessteel.raw_aluminium": "Raw Aluminium",
+  "item.pinessteel.aluminium_ingot": "Aluminium Ingot",
   "item.pinessteel.raw_lithium": "Raw Lithium",
   "item.pinessteel.raw_sulphur": "Sulphur",
+  "item.pinessteel.raw_titanium": "Titanium",
 
   "block.pinessteel.steel_block": "Block of Steel",
   "block.pinessteel.heavy_steel_block": "Block of Heavy Steel",
@@ -18,6 +20,7 @@
   "block.pinessteel.deepslate_aluminium_ore": "Deepslate Bauxite Ore",
   "block.pinessteel.lithium_ore": "Lithium Ore",
   "block.pinessteel.sulphur_ore": "Sulphur Ore",
+  "block.pinessteel.titanium_ore": "Titanium Ore",
 
 
   "creativetab.pines_steel_tab": "Pines Steel"

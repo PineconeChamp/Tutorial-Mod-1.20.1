@@ -59,6 +59,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
