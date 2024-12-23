@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_LITHIUM.get());
                         output.accept(ModItems.RAW_SULPHUR.get());
                         output.accept(ModItems.RAW_TITANIUM.get());
+                        output.accept(ModItems.METAL_DETECTOR.get());
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.HEAVY_STEEL_BLOCK.get());
@@ -40,6 +41,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LITHIUM_ORE.get());
                         output.accept(ModBlocks.SULPHUR_ORE.get());
                         output.accept(ModBlocks.TITANIUM_ORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
                     .build());

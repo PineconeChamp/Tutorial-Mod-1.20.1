@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pineconechamp.pinessteel.PinesSteel;
+import net.pineconechamp.pinessteel.block.custom.SoundBlock;
 import net.pineconechamp.pinessteel.item.ModItems;
 
 import java.util.function.Supplier;
@@ -61,6 +62,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
                     .requiresCorrectToolForDrops()));
 
 

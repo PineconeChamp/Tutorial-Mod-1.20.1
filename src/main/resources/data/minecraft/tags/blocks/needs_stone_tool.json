@@ -1,6 +1,7 @@
 {
   "values": [
     "pinessteel:cheese_ore",
-    "pinessteel:sulphur_ore"
+    "pinessteel:sulphur_ore",
+    "pinessteel:sound_block"
   ]
 }
