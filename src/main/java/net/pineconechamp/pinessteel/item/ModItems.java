@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pineconechamp.pinessteel.PinesSteel;
+import net.pineconechamp.pinessteel.item.custom.FuelItem;
 import net.pineconechamp.pinessteel.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -44,6 +45,8 @@ public class ModItems {
     public static final  RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(50)));
 
+    public static final  RegistryObject<Item> PINE_CONE = ITEMS.register("pinecone",
+            () -> new FuelItem(new Item.Properties(), 400));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

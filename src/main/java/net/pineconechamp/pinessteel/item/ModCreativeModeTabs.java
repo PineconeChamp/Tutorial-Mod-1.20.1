@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_SULPHUR.get());
                         output.accept(ModItems.RAW_TITANIUM.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
+                        output.accept(ModItems.PINE_CONE.get());
 
                         output.accept(ModBlocks.STEEL_BLOCK.get());
                         output.accept(ModBlocks.HEAVY_STEEL_BLOCK.get());
