@@ -18,7 +18,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_CHEESE = ITEMS.register("raw_cheese",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoods.CHEESE)));
 
     public static final  RegistryObject<Item> COBALT = ITEMS.register("cobalt_ingot",
             () -> new Item(new Item.Properties()));
