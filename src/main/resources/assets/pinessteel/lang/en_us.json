@@ -24,6 +24,8 @@
   "block.pinessteel.titanium_ore": "Titanium Ore",
   "block.pinessteel.sound_block": "SOUND MAKER",
 
+  "tooltip.pinessteel.metal_detector.tooltip": "Finds valuables underground!",
+
 
   "creativetab.pines_steel_tab": "Pines Steel"
 }
